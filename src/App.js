@@ -22,7 +22,8 @@ removePostByKey = (key) => {
   postits.forEach((post) => {
     if (post.key !== key) {  newPostitsArray.push(post) }})
   return newPostitsArray
-}
+} 
+
 
 setEditStatusByKey = (key) => {
   let postits = [...this.state.postits]
