@@ -8,6 +8,9 @@ import Form from './Form/Form';
 class App extends Component {
   state = {
     postits: [
+
+   { title: "Get a haircut!", content: "You look like a caveman", colour: "blue", key: "456def"},
+    { title: "Buy Cheese", content: "gouda, edam, swiss, emmental, blue", colour: "pink", key: "123abc"}
   ],
   toggleEditScreen: false,
   postToEdit: undefined,
